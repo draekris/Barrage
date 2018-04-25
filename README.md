@@ -27,8 +27,6 @@ A distributable version of this application is not currently provided, though th
 
 ### TODO:  
 ##### Currently working on:
-* Marquee for metadata text
-  - (this is half finished in this version)
 * Folder drag-and-drop support
   - Ignore non-media files without throwing errors all over the place
 * Consolidate options to a config.json 
@@ -55,6 +53,7 @@ A distributable version of this application is not currently provided, though th
 * Fix handling of multi-file drops (only start playing when finished, or prevent new playFromQueue calls while the first file is still playing)
 
 ##### Done (mostly):
+* (done) Add marquee for long song names
 * (done) Fix audio quality bug
 * (done) Fix need to double press play (pause) button
 * (done) Add Scrubbing (range slider over top of canvas)

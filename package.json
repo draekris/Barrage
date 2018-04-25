@@ -1,7 +1,7 @@
 {
   "name": "Barrage",
   "version": "1.0.0",
-  "description": "A minimal Audio Player",
+  "description": "A minimal audio player",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
