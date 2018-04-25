@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Barrage</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div id="draggable"></div>
+    <section id="art">
+      <div>
+        <img src="resources/audiotrack.svg">
+      </div>
+    </section>
+    <section id="content">
+      <header id="titlebar">
+        <img id="closeButton" class="nodrag" src="resources/close.svg">
+      </header>
+      <section id="metadata">
+        <div class="marquee"><h1 id="song">Drag and Drop</h1><h1 id="song2"></h1></div>
+        <h3 id="artist">audio files to play</h3>
+      </section>
+      <section id="analyser">
+        <canvas height=100 width=600></canvas>
+      </section>
+      <section id="controls">
+        <div id="re"><img class="nodrag" src="resources/re.svg"></div>
+        <div id="pp"><img class="nodrag" src="resources/play_circle.svg"></div>
+        <div id="ff"><img class="nodrag" src="resources/ff.svg"></div>
+      </section>
+    </section>
+
+    <script>
+      require('./renderer.js')
+    </script>
+  </body>
+</html>

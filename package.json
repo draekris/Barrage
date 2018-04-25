@@ -1,0 +1,23 @@
+{
+  "name": "Barrage",
+  "version": "1.0.0",
+  "description": "A minimal Audio Player",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/draekris/ordnance",
+  "keywords": [],
+  "author": "Draekris",
+  "license": "CC-BY-SA-4.0",
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-rebuild": "^1.7.3"
+  },
+  "dependencies": {
+    "album-art": "^2.0.0",
+    "howler": "^2.0.9",
+    "mathjs": "^4.1.2",
+    "music-metadata": "^0.9.15"
+  }
+}
