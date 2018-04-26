@@ -23,7 +23,9 @@ This application is not practical.  It's built with Electron, does a huge amount
 It _is_ pretty neat though, in my opinion, and I hope you like it.  
 
 ### Installation/use:
-A distributable version of this application is not currently provided, though there will be one once all the main features are complete and debugged.  If you would like to try it out and/or help with development, you'll need to install and have a basic understanding of [Node](https://nodejs.org/en/), and preferably Electron and Git as well.
+Preliminary versions are provided in the Barrage-"your operating system"-x64.zip files.  Download the appropriate one (for Windows, win32), unzip it, and launch the executable (for Windows, Barrage.exe).  Note that the application is completely unsigned, so your antivirus might throw a fit.  (If you're concerned about security, please feel free to inspect the source and build your own executable from it.)
+
+There will be proper distributable versions once all the main features are complete and debugged.  If you would like to try it out and/or help with development, you'll need to install and have a basic understanding of [Node](https://nodejs.org/en/), and preferably Electron and Git as well.
 
 ### TODO:  
 ##### Currently working on:
